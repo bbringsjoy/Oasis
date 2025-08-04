@@ -14,16 +14,15 @@
 .navbar {
     margin: 0;
     padding: 0;
-}
-
-header{
-    background-color: var(--maincolor);
+    background-color: var(--maincolor); 
     li{
         a{
             color: var(--pcolor);
         }
     }
 }
+
+
 
 .card{
 
