@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --maincolor: #dd341d;
+    --pcolor: #ffd8d8;
+    --p2color: #4b1919;
+    --hcolor: #aa2a2a;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: var(--maincolor);
+    li{
+        a{
+            color: var(--pcolor);
+        }
+    }
+}
+
+.card{
+
+    a:hover{
+        scale: 1.05;
+    }
+}
+
+footer{
+    background-color: var(--maincolor);
+    p{
+        color: var(--pcolor);
+
+    }
+    a{
+        color: var(--pcolor)
+    }
+}

@@ -7,11 +7,11 @@
     
     <link rel="stylesheet" href="css/all.min.css"> <!-- Font Awesome -->
     
-    <link href="imagens/logo2-removebg-preview.png" rel="shortcut icon">
+    <link href="imagens/pokebola.webp" rel="shortcut icon">
 
     <title> Loja </title>
   
-     <script id="pixel-chaty" async="true" src="https://cdn.chaty.app/pixel.js?id=rPhJlkBB"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 
      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"><!-- animação git -->
 
@@ -23,6 +23,7 @@
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid col-12">
               <a class="navbar-brand" href="home">
+                Logo
                 <img src="" alt="Logo" class="w-100">
               </a>
               <button class="navbar-toggler" type="botao button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,15 +34,15 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="home">
-                      <i class="fa-solid fa-house"></i> Home</a>
+                       Home</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="sobre">
-                      <i class="fa-solid fa-user-doctor"></i> Sobre</a>
+                       Sobre</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="login">
-                      <i class="fa-solid fa-user-doctor"></i> Login</a>
+                       Login</a>
                   </li>
                 </div>
             </div>
@@ -70,11 +71,11 @@
     </main>
     <footer>
   <div class="desenvolvedor">
-  <p class="user-select-none">
+  <p class="user-select-none text-center">
   © Todos os direitos reservados
   </p>
   <br>
-      <p class="user-select-none"> Desenvolvido por:
+      <p class="user-select-none text-center"> Desenvolvido por:
       <a href="https://www.linkedin.com/in/beatriz-gomes-santana-0197b5289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
         Beatriz Santana
       </a>
