@@ -9,7 +9,7 @@
     
     <link href="imagens/logo2-removebg-preview.png" rel="shortcut icon">
 
-    <title> Loja Pokémon </title>
+    <title> Loja </title>
   
      <script id="pixel-chaty" async="true" src="https://cdn.chaty.app/pixel.js?id=rPhJlkBB"></script>
 
@@ -38,6 +38,10 @@
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="sobre">
                       <i class="fa-solid fa-user-doctor"></i> Sobre</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="login">
+                      <i class="fa-solid fa-user-doctor"></i> Login</a>
                   </li>
                 </div>
             </div>
