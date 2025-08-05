@@ -5,16 +5,18 @@
 }
 
 :root{
-    --maincolor: #dd341d;
-    --pcolor: #ffd8d8;
-    --p2color: #4b1919;
-    --hcolor: #aa2a2a;
+    --maincolor: #8caad6;
+    --pcolor: #dbd8ff;
+    --p2color: #2c3161;
+    --hcolor: #2a33aa;
 }
 
 .navbar {
     margin: 0;
     padding: 0;
-    background-color: var(--maincolor); 
+}
+header{
+    background-color: var(--maincolor);
     li{
         a{
             color: var(--pcolor);
@@ -22,13 +24,27 @@
     }
 }
 
-
+body{
+    background-color: rgb(205, 224, 255);
+}
 
 .card{
-
+    scale: 1.0;
+    transition: all 0.3s;
+    filter: grayscale(100%);
     a:hover{
         scale: 1.05;
     }
+   
+}
+.card:hover{
+    scale: 1.08;
+    transition: all 0.3s;
+    filter: grayscale(0%);
+    img{
+        filter: grayscale(0%);
+    }
+
 }
 
 footer{

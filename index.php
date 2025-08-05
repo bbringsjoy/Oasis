@@ -9,7 +9,7 @@
     
     <link href="imagens/pokebola.webp" rel="shortcut icon">
 
-    <title> Loja </title>
+    <title> Oásis </title>
   
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 
@@ -42,7 +42,7 @@
                   </li>
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="login">
-                       Login</a>
+                       </a>
                   </li>
                 </div>
             </div>
@@ -53,7 +53,7 @@
     </header>
     <main class="container">
     <?php
-
+    include "array.php";
 
     $pagina = $_GET["param"] ?? "home";
 
