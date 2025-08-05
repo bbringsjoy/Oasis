@@ -23,8 +23,7 @@
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid col-12">
               <a class="navbar-brand" href="home">
-                Logo
-                <img src="" alt="Logo" class="w-100">
+                <img src="imagens/logo2.png" alt="Logo" class="w-25">
               </a>
               <button class="navbar-toggler" type="botao button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar"><i class="fa-solid fa-bars"></i></span>
