@@ -40,8 +40,12 @@
                        Sobre</a>
                   </li>
                   <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="cadastro">
+                       Cadastre-se</a>
+                  </li>
+                  <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="login">
-                       </a>
+                       Login</a>
                   </li>
                 </div>
             </div>
