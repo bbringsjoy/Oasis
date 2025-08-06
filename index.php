@@ -73,11 +73,11 @@
       ?>
     </main>
     <footer>
-  <div class="desenvolvedor">
   <p class="user-select-none text-center">
   © Todos os direitos reservados
   </p>
   <br>
+  <div class="desenvolvedor">
       <p class="user-select-none text-center"> Desenvolvido por:
       <a href="https://www.linkedin.com/in/beatriz-gomes-santana-0197b5289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
         Beatriz Santana

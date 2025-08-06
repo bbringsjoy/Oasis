@@ -8,7 +8,13 @@
                 <div class="card shadow p-3 bg-body-tertiary rounded" style="width: 100%;">
                     <img src="<?= $value['foto'] ?>" class="card-img-top" alt="<?= $value['nome'] ?>">
                     <div class="card-body">
-                        <h5 class="card-title"><?= $value['nome'] ?><i class="fa-solid fa-star"></i><?= $value['avaliacao']?></h5>
+                    <h5 class="card-title d-flex justify-content-between align-items-center">
+        <?= $value['nome'] ?>
+        <small class="text-muted d-flex align-items-center">
+            <i class="fa-solid fa-star"></i>
+            <?= $value['avaliacao'] ?>
+        </small>
+    </h5>
                         <p class="card-text"><?= $value['descricao'] ?></p>
                         <p class="card-text"><?= $value['preco'] ?></p>
                         <a href="#" class="btn btn-outline-primary">Mais informações</a>
@@ -27,7 +33,13 @@
                 <div class="card shadow p-3 bg-body-tertiary rounded" style="width: 100%;">
                     <img src="<?= $value['foto'] ?>" class="card-img-top" alt="<?= $value['nome'] ?>">
                     <div class="card-body">
-                        <h5 class="card-title"><?= $value['nome'] ?></h5>
+                    <h5 class="card-title d-flex justify-content-between align-items-center">
+        <?= $value['nome'] ?>
+        <small class="text-muted d-flex align-items-center">
+            <i class="fa-solid fa-star"></i>
+            <?= $value['avaliacao'] ?>
+        </small>
+    </h5>
                         <p class="card-text"><?= $value['descricao'] ?></p>
                         <p class="card-text"><?= $value['preco'] ?></p>
                         <a href="#" class="btn btn-outline-primary">Mais informações</a>

@@ -49,6 +49,8 @@ body{
 }
 
 footer{
+    padding-bottom: 0;
+    max-width: 100%;
     background-color: var(--maincolor);
     p{
         color: var(--pcolor);
