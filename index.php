@@ -7,7 +7,7 @@
     
     <link rel="stylesheet" href="css/all.min.css"> <!-- Font Awesome -->
     
-    <link href="imagens/pokebola.webp" rel="shortcut icon">
+    <link href="imagens/icon.png" rel="shortcut icon">
 
     <title> Oásis </title>
   
@@ -23,7 +23,7 @@
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid col-12">
               <a class="navbar-brand" href="home">
-                <img src="imagens/logo2.png" alt="Logo" class="w-25">
+                <img src="imagens/logo.png" alt="Logo" class="logohead">
               </a>
               <button class="navbar-toggler" type="botao button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar"><i class="fa-solid fa-bars"></i></span>
@@ -40,11 +40,7 @@
                        Sobre</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="cadastro">
-                       Cadastre-se</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="login">
+                    <a class="nav-link active btn btn-primary" aria-current="page" href="login">
                        Login</a>
                   </li>
                 </div>
@@ -78,16 +74,17 @@
   </p>
   <br>
   <div class="desenvolvedor">
-      <p class="user-select-none text-center"> Desenvolvido por:
+      <p class="user-select-none text-center"> <i class="fa-brands fa-linkedin"></i>
       <a href="https://www.linkedin.com/in/beatriz-gomes-santana-0197b5289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
-        Beatriz Santana
+ Beatriz Santana 
       </a>
-      <a>
+      
         e 
+    
+      <a href="https://www.linkedin.com/in/francesco-gris-053092355/">
+       Francesco Gris               
       </a>
-      <a href="">
-       Francesco Gris
-      </a>
+      
     </p>
   </div>
      

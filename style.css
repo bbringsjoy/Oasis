@@ -6,27 +6,35 @@
 }
 
 :root{
-    --maincolor: #8caad6;
+    --white: #ffffff;
+    --maincolor: #e7f1ff;
     --pcolor: #dbd8ff;
     --p2color: #2c3161;
     --hcolor: #2a33aa;
+    --headcolor: #3a8096;
 }
 
 .navbar {
     margin: 0;
     padding: 0;
+    background-color: var(--headcolor) !important;
 }
 header{
-    background-color: var(--maincolor);
+    background-color: var(--headcolor);
     li{
         a{
-            color: var(--pcolor);
+            color: var(--white) !important;
         }
     }
 }
 
+.logohead{
+    width: 120px;
+    height: auto;
+}
+
 body{
-    background-color: rgb(205, 224, 255);
+    background-color: var(--maincolor);
 }
 
 .card{
@@ -49,14 +57,18 @@ body{
 }
 
 footer{
-    padding-bottom: 0;
+    padding-bottom: 10px;
     max-width: 100%;
-    background-color: var(--maincolor);
+    background-color: var(--headcolor);
+    margin: 0;
+    border: 0;
     p{
-        color: var(--pcolor);
-
+        color: var(--white);
+            margin: 0;
     }
     a{
-        color: var(--pcolor)
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-weight: 580;
     }
 }
