@@ -40,7 +40,7 @@
                        Sobre</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active btn btn-primary" aria-current="page" href="login">
+                    <a class="nav-link active btn btn-primary" aria-current="page" href="login.php">
                        Login</a>
                   </li>
                 </div>
