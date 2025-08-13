@@ -28,6 +28,10 @@ header{
     }
 }
 
+.menu{
+    color: rgb(254, 255, 187);
+}
+
 .logohead{
     width: 120px;
     height: auto;

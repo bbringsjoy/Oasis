@@ -25,7 +25,7 @@
               <a class="navbar-brand" href="home">
                 <img src="imagens/logo.png" alt="Logo" class="logohead">
               </a>
-              <button class="navbar-toggler" type="botao button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler menu" type="botao button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar"><i class="fa-solid fa-bars"></i></span>
               </button>
               <div class= listas>
