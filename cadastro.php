@@ -22,8 +22,15 @@
 
 <form action="">
 
-<h1 class="user-select-none">Login</h1>
+<h1 class="user-select-none">Cadastre-se</h1>
 
+<div class="input-box">
+
+<input type="text" placeholder="Nome Completo" required>
+
+<i class='bx. bxs-user'></i>
+
+</div>
 <div class="input-box">
 
 <input type="text" placeholder="Email" required>
@@ -39,20 +46,19 @@
 <i class='bx bxs-lock-alt'></i>
 
 </div>
+<div class="input-box">
 
-<div class="esqueceu-senha">
+<input type="password" placeholder="Confirmar senha" required>
 
-<label><input type="checkbox">Lembre de mim</label>
-
-<a href="#">Esqueceu a senha?</a>
+<i class='bx bxs-lock-alt'></i>
 
 </div>
 
-<button type="submit" class="btn">Login</button>
+<button type="submit" class="btn">Cadastre-se</button>
 
 <div class="cadastro">
 
-<p>Não tem uma conta? <a href="cadastro.php">Cadastre-se aqui!</a></p>
+<p>Já tem uma conta? <a href="login.php">Faça login aqui!</a></p>
 
 </div>
 

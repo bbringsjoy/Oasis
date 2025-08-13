@@ -55,6 +55,9 @@ body{
     }
 
 }
+.destaques{
+    padding-top: 45px;
+}
 
 footer{
     padding-bottom: 10px;
@@ -196,3 +199,5 @@ h1{
     }
 }
 }
+
+
