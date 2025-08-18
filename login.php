@@ -1,3 +1,24 @@
+<?php
+
+include('conexao.php');
+
+if(isset($_POST['email']) || isset($_POST['senha'])) {
+
+  if(strlen($_POST['email']) == 0) {
+    echo "Digite seu email";
+  } else if(strlen($_POST['senha']) == 0) {
+    echo "Digite sua senha";
+  } else {
+    $email = $mysqli->real_escape_string($_POST["email"]);
+    $senha = $mysqli->real_escape_string($_POST["senha"]);
+    
+  }
+
+    
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
