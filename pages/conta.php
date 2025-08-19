@@ -1,0 +1,17 @@
+<?php
+
+if(!isset($_SESSION)){
+    session_start();
+}
+if(!isset($_SESSION['id'])){
+    die('Você não está logado!<p><a href="login.php">Acesse a sua conta aqui!</a></p>');
+}
+
+?>
+
+<main>
+
+<h1>Bem vindo<?php echo $_SESSION['nome'];?>! Para onde vamos hoje?</h1>
+
+
+</main>
