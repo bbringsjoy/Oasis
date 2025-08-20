@@ -2,7 +2,7 @@
 
 $usuario = "root";
 $senha = "";
-$database = "login";
+$database = "oasis";
 $host = "localhost";
 
 $mysqli = new mysqli($usuario, $senha, $database, $host);

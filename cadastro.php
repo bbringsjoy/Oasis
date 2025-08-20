@@ -1,3 +1,17 @@
+<?php
+if($_POST) {
+  $user = new User(
+      name: $_POST['user_name'],
+      email: $_POST['user_email']
+  );
+}
+
+$user->save();
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
