@@ -80,9 +80,8 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
 
 </div>
 
-<div class="esqueceu-senha">
+<div class="esqueceu-senha text-center">
 
-<label><input type="checkbox">Lembre de mim</label>
 
 <a href="#">Esqueceu a senha?</a>
 
