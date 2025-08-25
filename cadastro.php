@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         $user->save();
 
-     echo"Cadastro realizado com sucesso!"
+     echo"Cadastro realizado com sucesso!";
     } else {
 
         echo "Por favor, preencha todos os campos do formulário.";

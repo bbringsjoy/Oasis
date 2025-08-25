@@ -8,7 +8,9 @@ $casas = [
     ["nome" => "Pousada - Balneário Camboriú", "descricao" => "Pousada próximo a praia em Balneário Camboriú, - SC", "preco" => "R$3.800,00 por dia", "foto" => "imagens/pousadabellaface.jpg", "avaliacao" => 3.4],
     ["nome" => "Casa - Santos", "descricao" => "Casa confortável na praia de Santos - SP", "preco" => "R$2.500,00 por dia", "foto" => "imagens/CasadePraia.jpg", "avaliacao" => 4.9],
     ["nome" => "Casa - Vitória", "descricao" => "Casa confortável no centro de Vitória - ES", "preco" => "R$2.500,00 por dia", "foto" => "imagens/pousadavermelha.jpg", "avaliacao" => 4.9],
-    ["nome" => "Apartamento - Maragogi","descricao" => "Apartamento na cidade de Maragogi próximo a praia", "preco" => "R$1.800,00 por dia", "foto" => "imagens/apartamentomaragogi.jpg", "avaliacao" => 4.5]
+    ["nome" => "Apartamento - Maragogi","descricao" => "Apartamento na cidade de Maragogi próximo a praia - AL", "preco" => "R$1.800,00 por dia", "foto" => "imagens/apartamentomaragogi.jpg", "avaliacao" => 4.5],
+    ["nome" => "Edifício - Xique Xique","descricao" => "Simples edifício - BA", "preco" => "R$129,90 por dia", "foto" => "imagens/aquirei.jpg", "avaliacao" => 2.7],
+    ["nome" => "Construção - Jundiaí","descricao" => "Construção confortável e calma - SP", "preco" => "R$400,00 por dia", "foto" => "imagens/casabela.jpg", "avaliacao" => 5.0]
 
 
 ];
