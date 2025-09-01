@@ -1,23 +1,15 @@
 <?php
-
-
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-
     if (isset($_POST['user_name'], $_POST['user_email'], $_POST['user_cpf'], $_POST['user_password'])) {
-        
         $user = new User(
             name: $_POST['user_name'],
             email: $_POST['user_email'],
             cpf: $_POST['user_cpf'],
             password: $_POST['user_password']
         );
-
-
         $user->save();
-
      echo"Cadastro realizado com sucesso!";
     } else {
-
         echo "Por favor, preencha todos os campos do formulário.";
     }
 }
