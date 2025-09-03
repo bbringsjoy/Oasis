@@ -1,19 +1,24 @@
 <?php
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    if (isset($_POST['user_name'], $_POST['user_email'], $_POST['user_cpf'], $_POST['user_password'])) {
-        $user = new User(
-            name: $_POST['user_name'],
-            email: $_POST['user_email'],
-            cpf: $_POST['user_cpf'],
-            password: $_POST['user_password']
-        );
-        $user->save();
-     echo"Cadastro realizado com sucesso!";
-    } else {
-        echo "Por favor, preencha todos os campos do formulário.";
-    }
+
+use App\Model\User;
+
+require_once __DIR__ . '/vendor/autoload.php';
+
+if ($_POST) {
+    $user = new User(
+        name: $_POST['user_name'],
+        email: $_POST['user_email'],
+        password: $_POST['user_password']
+    );
+    
+    $user->save();
+
+    echo $user->validatePassword('123') ? 'Senha é 123': 'Senha não é 123';
 }
-?>
+
+$users = User::findAll();
+
+?>c:\Users\Administrador\Documents\cadastro-usuario\src
 
 
 <!DOCTYPE html>
