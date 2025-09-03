@@ -18,7 +18,7 @@ if ($_POST) {
 
 $users = User::findAll();
 
-?>c:\Users\Administrador\Documents\cadastro-usuario\src
+?>
 
 
 <!DOCTYPE html>

@@ -1,27 +1,15 @@
 {
     "name": "beatriz/oasis",
     "description": "Site para o oasis",
-    "type": "project",
-    "require": {
-        "oasis/orm": "^3.5",
-        "oasis/dbal": "^4.3",
-        "symfony/cache": "^7.3",
-        "vlucas/phpdotenv": "^5.6"
-    },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "Beatriz\\Oasis\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Beatriz",
-            "email": "beatrizzgsantana@gmail.com"
+            "name": "Beatriz"
         }
     ],
-    "scripts": {
-        "create-db": "php bin/doctrine orm:schema-tool:create",
-        "update-db": "php bin/doctrine orm:schema-tool:update --force",
-        "start": "php -S localhost:8000 -t public"
-    }
+    "require": {}
 }
