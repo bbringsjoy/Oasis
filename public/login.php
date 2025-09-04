@@ -1,7 +1,9 @@
 <?php
-require __DIR__ . '/../vendor/autoload.php';
 
 use App\Controllers\AuthController;
+
+require __DIR__ . '/../vendor/autoload.php';
+
 
 session_start();
 
@@ -44,41 +46,28 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <div class="login">
 
-<form action="">
+<form action="" method="POST">
+    <h1 class="user-select-none">Login</h1>
 
-<h1 class="user-select-none">Login</h1>
+    <div class="input-box">
+        <input type="text" name="email" placeholder="Email" required>
+        <i class='bx. bxs-user'></i>
+    </div>
 
-<div class="input-box">
+    <div class="input-box">
+        <input type="password" name="senha" placeholder="Senha" required>
+        <i class='bx bxs-lock-alt'></i>
+    </div>
 
-<input type="text" placeholder="Email" required>
+    <div class="esqueceu-senha text-center">
+        <a href="#">Esqueceu a senha?</a>
+    </div>
 
-<i class='bx. bxs-user'></i>
+    <button type="submit" class="btn">Login</button>
 
-</div>
-
-<div class="input-box">
-
-<input type="password" placeholder="Senha" required>
-
-<i class='bx bxs-lock-alt'></i>
-
-</div>
-
-<div class="esqueceu-senha text-center">
-
-
-<a href="#">Esqueceu a senha?</a>
-
-</div>
-
-<button type="submit" class="btn">Login</button>
-
-<div class="cadastro">
-
-<p>Não tem uma conta? <a href="cadastro.php">Cadastre-se aqui!</a></p>
-
-</div>
-
+    <div class="cadastro">
+        <p>Não tem uma conta? <a href="cadastro.php">Cadastre-se aqui!</a></p>
+    </div>
 </form>
 
 </div>
