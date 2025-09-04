@@ -1,3 +1,26 @@
+<?php
+require __DIR__ . '/../vendor/autoload.php';
+
+use App\Controllers\AuthController;
+
+session_start();
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $auth = new AuthController();
+    $usuario = $auth->autenticar($_POST['email'], $_POST['senha']);
+
+    if ($usuario) {
+        $_SESSION['usuario'] = $usuario['nome'];
+        header("Location: dashboard.php");
+        exit;
+    } else {
+        echo "Login inválido.";
+    }
+}
+
+
+
+?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
