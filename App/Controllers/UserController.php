@@ -2,8 +2,18 @@
 
 namespace App\Controller;
 
+use App\Model\User;
+
 require_once __DIR__ . '/../vendor/autoload.php';
 
+
+$uri = $_SERVER['REQUEST_URI'];
+
+$pages = [
+    '/user' => new UserController()
+];
+
+$uri[$pages];
 class UserController
 {
     public function __construct()
