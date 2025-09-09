@@ -1,13 +1,27 @@
 {
-    "name": "oasis/app",
-    "type": "library",
-    "license": "MIT",
-    
+    "name": "bia/oasis",
+    "description": "Template para o projeto Oasis",
+    "type": "project",
+    "require": {
+        "doctrine/orm": "^3.5",
+        "doctrine/dbal": "^4.3",
+        "symfony/cache": "^7.3",
+        "vlucas/phpdotenv": "^5.6"
+    },
     "autoload": {
         "psr-4": {
-            "App\\": "app/"
+            "App\\": "src/"
         }
     },
-    "minimum-stability": "stable",
-    "require": {}
+    "authors": [
+        {
+            "name": "Beatriz Gomes Santana",
+            "email": "biagsantana1000@gmail.com"
+        }
+    ],
+    "scripts": {
+        "create-db": "php bin/doctrine orm:schema-tool:create",
+        "update-db": "php bin/doctrine orm:schema-tool:update --force",
+        "start": "php -S localhost:8000 -t public"
+    }
 }
