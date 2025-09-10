@@ -18,3 +18,4 @@ $controller = $pages[$uri] ?? new NotFound();
 $controller->render();
 
 ?>
+
