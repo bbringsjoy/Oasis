@@ -1,2 +1,37 @@
 novo "index" -> colocar a pagina com as casas aqui (com o include php)
 e o header 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Site</title>
+</head>
+<body>
+
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="?page=pagina1">Página 1</a>
+            <a href="?page=pagina2">Página 2</a>
+        </nav>
+    </header>
+
+    <main>
+        <?php
+            // Este é o espaço para o CONTEÚDO DINÂMICO
+            // A variável `$conteudo` conterá o caminho da página a ser incluída
+            if (isset($conteudo) && file_exists($conteudo)) {
+                include $conteudo;
+            } else {
+                echo "<h1>Página não encontrada!</h1>";
+            }
+        ?>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Meu Site.</p>
+    </footer>
+
+</body>
+</html>

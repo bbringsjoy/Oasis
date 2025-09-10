@@ -6,14 +6,6 @@ use App\Model\User;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-
-$uri = $_SERVER['REQUEST_URI'];
-
-$pages = [
-    '/user' => new UserController()
-];
-
-$uri[$pages];
 class UserController
 {
     public function __construct()
@@ -35,6 +27,10 @@ class UserController
 
     include __DIR__ . '/../View/user.phtml';
 
+    }
+
+    public function render(): void    {
+        echo "User page";
     }
 	
 }
