@@ -19,9 +19,6 @@ if($_POST){
 }
 $users = User::findAll();
 ?>
-
-
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
