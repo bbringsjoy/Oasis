@@ -10,7 +10,10 @@ class UserController
 {
     public function __construct()
     {
-        if($_POST){
+    }
+
+    public function render(): void    {
+         if($_POST){
 
         $user = new User(
         name: $_POST['user_name'],
@@ -28,11 +31,8 @@ class UserController
     include __DIR__ . '/../View/user.phtml';
 
     }
-
-    public function render(): void    {
-        echo "User page";
     }
-	
-}
+
+
 
 ?>
