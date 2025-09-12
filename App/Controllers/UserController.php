@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 use App\Model\User;
 
-require_once __DIR__ . '/../vendor/autoload.php';
+
 
 class UserController
 {

@@ -1,7 +1,5 @@
-novo "index" -> colocar a pagina com as casas aqui (com o include php)
-e o header 
 
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -17,7 +15,7 @@ e o header
 
      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"><!-- animação git -->
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
     <header>
@@ -54,28 +52,20 @@ e o header
     </header>
       <main class="container">
     <?php
-    include "array.php";
+    include "../array.php";
 
-    $pagina = $_GET["param"] ?? "home";
 
-    if (isset($_GET["param"])) {
-      $param = explode("/", $_GET["param"]);
-      $pagina = $param[0] ?? "home";
-      $id = $param[1] ?? NULL;
-    }
-
-    $pagina = "public/pages/{$pagina}.php";
-
-    if (file_exists($pagina)) include $pagina;
-    else include "public/pages/erro.php";
-            // Este é o espaço para o CONTEÚDO DINÂMICO
-            // A variável `$conteudo` conterá o caminho da página a ser incluída
-            if (isset($conteudo) && file_exists($conteudo)) {
-                include $conteudo;
-            } else {
-                echo "<h1>Página não encontrada!</h1>";
-            }
-        ?>
+// ...
+$pagina = $_GET["param"] ?? "home";
+// ...
+$caminho_pagina = "../public/pages/{$pagina}.php";
+// ...
+if (file_exists($caminho_pagina)) {
+    include $caminho_pagina;
+} else {
+    include "../public/pages/erro.php";
+}
+?>
     </main>
     <footer>
   <p class="user-select-none text-center">

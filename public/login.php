@@ -34,9 +34,7 @@
         <i class='bx bxs-lock-alt'></i>
     </div>
 
-    <div class="esqueceu-senha text-center">
-        <a href="#">Esqueceu a senha?</a>
-    </div>
+    
 
     <button type="submit" class="btn">Login</button>
 
