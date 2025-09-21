@@ -19,6 +19,19 @@
     padding: 0;
     background-color: var(--headcolor) !important;
 }
+
+.btnlogin{
+    background-color: var(--white) !important;
+    color: var(--headcolor) !important;
+    font-weight: 600;
+}
+
+.btnlogin:hover{
+    background-color: var(--pcolor) !important;
+    color: var(--headcolor) !important;
+    font-weight: 600;
+}
+
 header{
     background-color: var(--headcolor);
     li{

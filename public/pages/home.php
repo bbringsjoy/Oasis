@@ -1,6 +1,6 @@
 <main>
     <div class="destaques container">
-    <h3 class="user-select-none text-center">Reservas em destaque</h3>
+    <p><img src="../imagens/titulo1.png"></p>
     <div class="row">
         <?php foreach ($destaques as $id => $value) { ?>
             <div class="col-md-4 mb-4">
@@ -25,7 +25,7 @@
 </div>
 <br>
 <div class="reservas container">
-    <h3 class="user-select-none text-center">Todas as reservas disponíveis</h3>
+    <p><img src="../imagens/titulo2.png"></p>
     <div class="row">
         <?php foreach ($casas as $id => $value) { ?>
             <div class="col-md-4 mb-4">
