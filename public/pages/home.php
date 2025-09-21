@@ -9,14 +9,14 @@
                     <div class="card-body">
                     <h5 class="card-title d-flex justify-content-between align-items-center">
         <?= $value['nome'] ?>
-        <small class="text-muted d-flex align-items-center">
+        <small class="text-muted d-flex align-items-center star">
             <i class="fa-solid fa-star"></i>
             <?= $value['avaliacao'] ?>
         </small>
     </h5>
                         <p class="card-text"><?= $value['descricao'] ?></p>
                         <p class="card-text"><?= $value['preco'] ?></p>
-                        <a href="#" class="btn btn-outline-primary">Mais informações</a>
+                        
                     </div>
                 </div>
             </div>
@@ -34,14 +34,14 @@
                     <div class="card-body">
                     <h5 class="card-title d-flex justify-content-between align-items-center">
         <?= $value['nome'] ?>
-        <small class="text-muted d-flex align-items-center">
+        <small class="text-muted d-flex align-items-center star">
             <i class="fa-solid fa-star"></i>
             <?= $value['avaliacao'] ?>
         </small>
     </h5>
                         <p class="card-text"><?= $value['descricao'] ?></p>
                         <p class="card-text"><?= $value['preco'] ?></p>
-                        <a href="#" class="btn btn-outline-primary">Mais informações</a>
+                        
                     </div>
                 </div>
             </div>

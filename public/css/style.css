@@ -229,3 +229,6 @@ h1{
 
 }
 
+.star {
+    color: var(--headcolor) !important;
+}
