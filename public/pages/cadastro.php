@@ -62,9 +62,7 @@ $users = User::findAll();
 
         <button type="submit" class="btn">Cadastre-se</button>
 
-        <div class="cadastro">
-            <p>Já tem uma conta? <a href="login.php">Faça login aqui!</a></p>
-        </div>
+        
     </form>
 
 </div>
