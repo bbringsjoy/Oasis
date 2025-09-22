@@ -1,6 +1,6 @@
 <main>
     <div class="destaques container">
-    <p><img src="../imagens/titulo1.png"></p>
+    <p style="text-align: center;"> <img src="../imagens/titulo1.png" style="width: 30%;"></p>
     <div class="row">
         <?php foreach ($destaques as $id => $value) { ?>
             <div class="col-md-4 mb-4">
@@ -25,7 +25,7 @@
 </div>
 <br>
 <div class="reservas container">
-    <p><img src="../imagens/titulo2.png"></p>
+    <p style="text-align: center;"><img src="../imagens/titulo2.png"style="width: 30%;"></p>
     <div class="row">
         <?php foreach ($casas as $id => $value) { ?>
             <div class="col-md-4 mb-4">
