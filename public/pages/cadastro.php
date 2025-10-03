@@ -60,6 +60,11 @@ $users = User::findAll();
             <i class='bx bxs-lock-alt'></i>
         </div>
 
+        <div class="input-box">
+    <input type="password" placeholder="Confirmar Senha" name="confirm_password" required>
+    <i class='bx bxs-lock-alt'></i>
+</div>
+
         <button type="submit" class="btn">Cadastre-se</button>
 
         
